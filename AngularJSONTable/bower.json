@@ -1,0 +1,28 @@
+{
+  "name": "AngularJSONTable",
+  "version": "0.0.0",
+  "homepage": "https://github.com/INFT4000ITCFALL2015/inft4000-cm",
+  "authors": [
+    "chrismoulins <w0281939@nscc.ca>"
+  ],
+  "description": "Angular Bootsrap JSON table",
+  "main": "index.html",
+  "keywords": [
+    "Angular",
+    "JSON",
+    "table",
+    "demo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="scripts.js"></script>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div ng-controller="customerController">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat=" username in usernames">
+                    <td>{{username.Name}}</td>
+                    <td>{{username.City}}</td>
+                    <td>{{username.Country}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
